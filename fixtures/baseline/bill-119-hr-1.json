@@ -1,0 +1,301 @@
+{
+  "route": "/bills/119/hr/1",
+  "capturedAt": "2026-11-23",
+  "sourceSha": "3328df5c202c2a97213d025d2b61bbde60f09755",
+  "sitemap": {
+    "lastmod": "2025-07-04",
+    "changefreq": "never",
+    "priority": "0.8"
+  },
+  "httpStatus": 200,
+  "head": {
+    "title": "HR. 1 (119th) - An act to provide for reconc... | Bill Grokker",
+    "metas": [
+      {
+        "name": null,
+        "property": null,
+        "content": null
+      },
+      {
+        "name": "viewport",
+        "property": null,
+        "content": "width=device-width, initial-scale=1"
+      },
+      {
+        "name": "description",
+        "property": null,
+        "content": "Analysis and summary of HR. 1 (119th): An act to provide for reconciliation pursuant .... AI-powered plain-English breakdown and analysis on Bill Grokker."
+      },
+      {
+        "name": "keywords",
+        "property": null,
+        "content": "bills, legislation, congress, government, politics, hr1"
+      },
+      {
+        "name": "robots",
+        "property": null,
+        "content": "index, follow"
+      },
+      {
+        "name": null,
+        "property": "og:title",
+        "content": "HR. 1 (119th) - An act to provide for reconc..."
+      },
+      {
+        "name": null,
+        "property": "og:site_name",
+        "content": "Bill Grokker"
+      },
+      {
+        "name": null,
+        "property": "og:type",
+        "content": "article"
+      },
+      {
+        "name": null,
+        "property": "og:locale",
+        "content": "en"
+      },
+      {
+        "name": null,
+        "property": "og:description",
+        "content": "Analysis and summary of HR. 1 (119th): An act to provide for reconciliation pursuant .... AI-powered plain-English breakdown and analysis on Bill Grokker."
+      },
+      {
+        "name": null,
+        "property": "og:image",
+        "content": "https://billgrokker.com/images/logo-color.png"
+      },
+      {
+        "name": null,
+        "property": "og:logo",
+        "content": "https://billgrokker.com/images/logo-color.png"
+      },
+      {
+        "name": null,
+        "property": "og:image:width",
+        "content": "300"
+      },
+      {
+        "name": null,
+        "property": "og:image:height",
+        "content": "68"
+      },
+      {
+        "name": null,
+        "property": "og:keywords",
+        "content": "bills, legislation, congress, government, politics, hr1"
+      },
+      {
+        "name": "twitter:card",
+        "property": null,
+        "content": "summary"
+      },
+      {
+        "name": "twitter:site",
+        "property": null,
+        "content": "@BillGrokker"
+      },
+      {
+        "name": null,
+        "property": "twitter:domain",
+        "content": "billgrokker.com"
+      },
+      {
+        "name": "twitter:title",
+        "property": null,
+        "content": "HR. 1 (119th) - An act to provide for reconc..."
+      },
+      {
+        "name": "twitter:description",
+        "property": null,
+        "content": "Analysis and summary of HR. 1 (119th): An act to provide for reconciliation pursuant .... AI-powered plain-English breakdown and analysis on Bill Grokker."
+      },
+      {
+        "name": "twitter:image",
+        "property": null,
+        "content": "https://billgrokker.com/images/logo-color.png"
+      },
+      {
+        "name": "mobile-web-app-capable",
+        "property": null,
+        "content": "yes"
+      },
+      {
+        "name": "apple-mobile-web-app-title",
+        "property": null,
+        "content": "Bill Grokker"
+      },
+      {
+        "name": null,
+        "property": "og:url",
+        "content": "https://billgrokker.com/bills/119/hr/1"
+      },
+      {
+        "name": null,
+        "property": "twitter:url",
+        "content": "https://billgrokker.com/bills/119/hr/1"
+      }
+    ],
+    "canonical": "https://billgrokker.com/bills/119/hr/1",
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "ImageObject",
+            "@id": "https://billgrokker.com/#logo",
+            "url": "https://billgrokker.com/images/logo-color.png",
+            "width": 300,
+            "height": 68,
+            "caption": "Bill Grokker"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://billgrokker.com/#organization",
+            "name": "Bill Grokker",
+            "url": "https://billgrokker.com",
+            "sameAs": [
+              "https://x.com/billgrokker",
+              "https://www.facebook.com/billgrokker",
+              "https://www.instagram.com/billgrokker",
+              "https://www.linkedin.com/company/billgrokker",
+              "https://github.com/billgrokker"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "customer service",
+              "url": "mailto:support@expertvision.software"
+            }
+          },
+          {
+            "@type": [
+              "WebApplication",
+              "SoftwareApplication"
+            ],
+            "@id": "https://billgrokker.com/#webapplication",
+            "name": "Bill Grokker",
+            "url": "https://billgrokker.com",
+            "operatingSystem": "All",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "description": "Bill Grokker offers AI-powered legislative summaries for bills and executive orders. Understand bills or laws with analysis and bias scoring.",
+            "softwareVersion": "1.0.0",
+            "applicationCategory": "Government"
+          },
+          {
+            "@id": "https://billgrokker.com/bills/119/hr/1#webpage",
+            "@type": "WebPage",
+            "url": "https://billgrokker.com/bills/119/hr/1",
+            "inLanguage": "en-US",
+            "name": "HR. 1 (119th) - An act to provide for reconc...",
+            "description": "Analysis and summary of HR. 1 (119th): An act to provide for reconciliation pursuant .... AI-powered plain-English breakdown and analysis on Bill Grokker.",
+            "isPartOf": {
+              "@id": "https://billgrokker.com/#webapplication"
+            },
+            "image": {
+              "@id": "https://billgrokker.com/#logo"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://billgrokker.com/#logo"
+            },
+            "datePublished": "2025-05-20T00:00:00+00:00",
+            "dateModified": "2025-07-04T00:00:00+00:00",
+            "breadcrumb": {
+              "@id": "https://billgrokker.com/bills/119/hr/1#breadcrumb"
+            }
+          },
+          {
+            "@id": "https://billgrokker.com/bills/119/hr/1#breadcrumb",
+            "name": "Breadcrumbs",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                  "@id": "https://billgrokker.com/",
+                  "@type": "Thing",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                  "@id": "https://billgrokker.com/bills/search",
+                  "@type": "Thing",
+                  "name": "Search Bills"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                  "@id": "https://billgrokker.com/bills/119/search",
+                  "@type": "Thing",
+                  "name": "119th Congress"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                  "@id": "https://billgrokker.com/bills/119/hr/1",
+                  "@type": "Thing",
+                  "name": "HR. 1 (119th)"
+                }
+              }
+            ]
+          },
+          {
+            "@id": "https://billgrokker.com/bills/119/hr/1#article",
+            "@type": "Article",
+            "name": "HR. 1 (119th) - An act to provide for reconc...",
+            "headline": "HR. 1 (119th) - An act to provide for reconc...",
+            "description": "Analysis and summary of HR. 1 (119th): An act to provide for reconciliation pursuant .... AI-powered plain-English breakdown and analysis on Bill Grokker.",
+            "url": "https://billgrokker.com/bills/119/hr/1",
+            "image": {
+              "@id": "https://billgrokker.com/#logo"
+            },
+            "author": {
+              "@id": "https://billgrokker.com/#organization"
+            },
+            "publisher": {
+              "@id": "https://billgrokker.com/#organization"
+            },
+            "about": {
+              "@type": "Thing",
+              "name": "Economics and Public Finance"
+            },
+            "articleSection": "Economics and Public Finance",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://billgrokker.com/bills/119/hr/1#webpage"
+            },
+            "datePublished": "2025-05-20T00:00:00+00:00",
+            "dateModified": "2025-07-04T00:00:00+00:00",
+            "keywords": "bills, legislation, congress, government, politics, hr1"
+          }
+        ]
+      }
+    ]
+  },
+  "bill": {
+    "title": "HR. 1 (119th) - An act to provide for reconc...",
+    "dates": {
+      "datePublished": "2025-05-20T00:00:00+00:00",
+      "dateModified": "2025-07-04T00:00:00+00:00"
+    },
+    "policyArea": "Economics and Public Finance",
+    "breadcrumbs": [
+      "Home",
+      "Search Bills",
+      "119th Congress",
+      "HR. 1 (119th)"
+    ]
+  }
+}

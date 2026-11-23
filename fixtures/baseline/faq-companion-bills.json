@@ -1,0 +1,259 @@
+{
+  "route": "/faq/companion-bills",
+  "capturedAt": "2026-11-23",
+  "sourceSha": "3328df5c202c2a97213d025d2b61bbde60f09755",
+  "sitemap": {
+    "lastmod": "2026-08-15",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "httpStatus": 200,
+  "head": {
+    "title": "Companion Bills Explained | Frequently Asked Questions | Companion Bills Explained | Frequently Asked Questions | Bill Grokker",
+    "metas": [
+      {
+        "name": null,
+        "property": null,
+        "content": null
+      },
+      {
+        "name": "viewport",
+        "property": null,
+        "content": "width=device-width, initial-scale=1"
+      },
+      {
+        "name": "description",
+        "property": null,
+        "content": "Companion bills are identical or nearly identical bills introduced in both the House and Senate simultaneously to accelerate the legislative process."
+      },
+      {
+        "name": "keywords",
+        "property": null,
+        "content": "companion bills, legislation, congress, house, senate, bicameral, bill duplication"
+      },
+      {
+        "name": "robots",
+        "property": null,
+        "content": "index, follow"
+      },
+      {
+        "name": null,
+        "property": "og:title",
+        "content": "Companion Bills Explained"
+      },
+      {
+        "name": null,
+        "property": "og:site_name",
+        "content": "Bill Grokker"
+      },
+      {
+        "name": null,
+        "property": "og:type",
+        "content": "article"
+      },
+      {
+        "name": null,
+        "property": "og:locale",
+        "content": "en"
+      },
+      {
+        "name": null,
+        "property": "og:description",
+        "content": "Companion bills are identical or nearly identical bills introduced in both the House and Senate simultaneously to accelerate the legislative process."
+      },
+      {
+        "name": null,
+        "property": "og:image",
+        "content": "https://billgrokker.com/images/logo-color.png"
+      },
+      {
+        "name": null,
+        "property": "og:logo",
+        "content": "https://billgrokker.com/images/logo-color.png"
+      },
+      {
+        "name": null,
+        "property": "og:image:width",
+        "content": "300"
+      },
+      {
+        "name": null,
+        "property": "og:image:height",
+        "content": "68"
+      },
+      {
+        "name": null,
+        "property": "og:keywords",
+        "content": "companion bills, legislation, congress, house, senate, bicameral, bill duplication"
+      },
+      {
+        "name": "twitter:card",
+        "property": null,
+        "content": "summary"
+      },
+      {
+        "name": "twitter:site",
+        "property": null,
+        "content": "@BillGrokker"
+      },
+      {
+        "name": null,
+        "property": "twitter:domain",
+        "content": "billgrokker.com"
+      },
+      {
+        "name": "twitter:title",
+        "property": null,
+        "content": "Companion Bills Explained"
+      },
+      {
+        "name": "twitter:description",
+        "property": null,
+        "content": "Companion bills are identical or nearly identical bills introduced in both the House and Senate simultaneously to accelerate the legislative process."
+      },
+      {
+        "name": "twitter:image",
+        "property": null,
+        "content": "https://billgrokker.com/images/logo-color.png"
+      },
+      {
+        "name": "mobile-web-app-capable",
+        "property": null,
+        "content": "yes"
+      },
+      {
+        "name": "apple-mobile-web-app-title",
+        "property": null,
+        "content": "Bill Grokker"
+      },
+      {
+        "name": null,
+        "property": "og:url",
+        "content": "https://billgrokker.com/faq/companion-bills"
+      },
+      {
+        "name": null,
+        "property": "twitter:url",
+        "content": "https://billgrokker.com/faq/companion-bills"
+      }
+    ],
+    "canonical": "https://billgrokker.com/faq/companion-bills",
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "ImageObject",
+            "@id": "https://billgrokker.com/#logo",
+            "url": "https://billgrokker.com/images/logo-color.png",
+            "width": 300,
+            "height": 68,
+            "caption": "Bill Grokker"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://billgrokker.com/#organization",
+            "name": "Bill Grokker",
+            "url": "https://billgrokker.com",
+            "sameAs": [
+              "https://x.com/billgrokker",
+              "https://www.facebook.com/billgrokker",
+              "https://www.instagram.com/billgrokker",
+              "https://www.linkedin.com/company/billgrokker",
+              "https://github.com/billgrokker"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "customer service",
+              "url": "mailto:support@expertvision.software"
+            }
+          },
+          {
+            "@type": [
+              "WebApplication",
+              "SoftwareApplication"
+            ],
+            "@id": "https://billgrokker.com/#webapplication",
+            "name": "Bill Grokker",
+            "url": "https://billgrokker.com",
+            "operatingSystem": "All",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "description": "Bill Grokker offers AI-powered legislative summaries for bills and executive orders. Understand bills or laws with analysis and bias scoring.",
+            "softwareVersion": "1.0.0",
+            "applicationCategory": "Government"
+          },
+          {
+            "@id": "https://billgrokker.com/faq/companion-bills#webpage",
+            "@type": "WebPage",
+            "url": "https://billgrokker.com/faq/companion-bills",
+            "inLanguage": "en-US",
+            "name": "Companion Bills Explained",
+            "description": "Companion bills are identical or nearly identical bills introduced in both the House and Senate simultaneously to accelerate the legislative process.",
+            "isPartOf": {
+              "@id": "https://billgrokker.com/#webapplication"
+            },
+            "image": {
+              "@id": "https://billgrokker.com/#logo"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://billgrokker.com/#logo"
+            },
+            "datePublished": "2025-07-25T00:00:00+00:00",
+            "dateModified": "2025-07-25T00:00:00+00:00",
+            "breadcrumb": {
+              "@id": "https://billgrokker.com/faq/companion-bills#breadcrumb"
+            },
+            "mainEntity": {
+              "@type": "Question",
+              "name": "Why are bills duplicated sometimes?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Bills often appear in duplicate because of a deliberate legislative tactic called companion bills — identical or nearly identical legislation introduced simultaneously in both the House and the Senate. This strategy allows both chambers to work on the same policy in parallel, dramatically shortening the time it takes to reach a floor vote.",
+                "url": "https://billgrokker.com/faq#why-are-bills-duplicated"
+              }
+            }
+          },
+          {
+            "@id": "https://billgrokker.com/faq/companion-bills#breadcrumb",
+            "name": "Breadcrumbs",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                  "@id": "https://billgrokker.com/",
+                  "@type": "Thing",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                  "@id": "https://billgrokker.com/faq/",
+                  "@type": "Thing",
+                  "name": "FAQ"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                  "@id": "https://billgrokker.com/faq/companion-bills",
+                  "@type": "Thing",
+                  "name": "Companion Bills"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "bill": null
+}
