@@ -24,6 +24,13 @@ Any bare `YYYY-MM-DD` string equal to the capture date is replaced with
 
 Why: some fields are rendered as date-only defaults of "now".
 
+### Rule 3: attribute-less metas
+
+Meta tags without attributes, e.g. `<meta charset="utf-8">`, are captured
+with `name`, `property`, and `content` keys set to `null`. Extraction always
+records `name`, `property`, and `content` for every meta, using `null` when
+the attribute is absent.
+
 ## Known non-volatile dates
 
 Dates that happen to equal the capture date but come from real data (e.g. a
