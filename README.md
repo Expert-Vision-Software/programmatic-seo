@@ -234,6 +234,35 @@ synthesis tests proving the public API reproduces them
   changed legitimately (a real-world change — re-capture via a reviewed PR). A failure is
   never silenced by editing the fixture inline with the change that broke it.
 
+### Baseline synthesis tests
+
+`test/baseline-synthesis.spec.ts` reconstructs each of the nine fixture routes
+through the public API only — `initialize` → `siteWide.set*(...)` →
+`emit()` / `page()` chains → `setUrl(href)` — inside a fresh jsdom document
+seeded with the SPA's served static head, then compares the serialized head
+against the fixture after the shared normalization (`scripts/normalize.ts`,
+the single source of truth, shared with the capture harness).
+
+Content inputs come from the fixtures' stored data blocks, never the network:
+bill-detail routes synthesize from the fixture's `bill` metadata block
+(title, dates, policyArea, breadcrumbs) plus the captured description meta,
+and the FAQ routes reuse the fixture's stored `Question` content. The doubled
+`<title>` values on router-titled routes (home, FAQ, not-found, account) and
+the `/faq` → `/faq/index` canonical are reproduced as-is: they are upstream
+behaviors (the SPA router's `buildTitle` composition and the router's
+`/faq/index` URL) — not bugs to fix here.
+
+Granular failure interpretation:
+
+- **Diff only inside `{{NOW}}` fields** → a normalization bug. Fix the
+  normalization module or the test harness; never the fixture.
+- **Diff in JSON-LD shape, `@id` values, key order, meta set, canonical, or
+  title** → a package regression. Fix the package; the fixture is production
+  truth.
+- **Diff caused by an intentional behavior change** → land a `baseline:
+  recapture` PR first, then update the synthesis expectation. Do not weaken
+  the comparison in the test.
+
 Rendered output is **byte-identical** to the upstream implementation; this is the hard
 constraint inherited from the source project (stable `@id` ordering, key insertion order,
 `@context`/`@graph` shape).
