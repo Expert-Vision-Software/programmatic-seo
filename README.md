@@ -11,7 +11,7 @@ Framework-agnostic programmatic SEO engine for SPAs and component frameworks.
 ## Install
 
 ```bash
-bun add @expert-vision-software/programmatic-seo
+bun add programmatic-seo-sdk
 ```
 
 ESM-only, TypeScript declarations included, Node 22+.
@@ -19,7 +19,7 @@ ESM-only, TypeScript declarations included, Node 22+.
 ## Quickstart
 
 ```ts
-import {SeoService} from "@expert-vision-software/programmatic-seo";
+import {SeoService} from "programmatic-seo-sdk";
 
 const seo = new SeoService();
 
@@ -71,7 +71,7 @@ a logger bridge, an initialization AppTask, and a navigation-event handler.
 
 ```ts
 import {DI} from "aurelia";
-import {SeoService} from "@expert-vision-software/programmatic-seo";
+import {SeoService} from "programmatic-seo-sdk";
 
 export const ISeoService = DI.createInterface<ISeoService>(
     "ISeoService",
@@ -86,7 +86,7 @@ Register and initialize in an `AppTask`, bridging Aurelia's `ILogger` over the p
 ```ts
 import {AppTask, ILogger} from "aurelia";
 import {ISeoService} from "./seo-service.di";
-import type {SeoLogger} from "@expert-vision-software/programmatic-seo";
+import type {SeoLogger} from "programmatic-seo-sdk";
 import {HomeBreadcrumbItem} from "./constants/breadcrumbs";
 
 export const initializeSeo: IRegistry = {
@@ -128,7 +128,7 @@ public attached(): void {
 
 ```tsx
 import {useEffect, useMemo} from "react";
-import type {ISeoPage} from "@expert-vision-software/programmatic-seo";
+import type {ISeoPage} from "programmatic-seo-sdk";
 
 function useSeo(spec: ISeoPage) {
     useEffect(() => {
@@ -158,7 +158,7 @@ function Article({post}: {post: Post}) {
 
 ```ts
 import {watch} from "vue";
-import type {ISeoPage} from "@expert-vision-software/programmatic-seo";
+import type {ISeoPage} from "programmatic-seo-sdk";
 
 export function useSeo(spec: Ref<ISeoPage>) {
     watch(spec, v => seo.emit(v), {deep: true});
@@ -173,7 +173,7 @@ on mount, or a server-side renderer can pass the same `ISeoPage` shape down:
 ```tsx
 "use client";
 import {useEffect} from "react";
-import type {ISeoPage} from "@expert-vision-software/programmatic-seo";
+import type {ISeoPage} from "programmatic-seo-sdk";
 
 export function SeoHead({spec}: {spec: ISeoPage}) {
     useEffect(() => {
@@ -189,7 +189,7 @@ The package never logs through a framework; it calls the `SeoLogger` seam suppli
 config `logger` field. Bridge your framework logger over it:
 
 ```ts
-import type {SeoLogger} from "@expert-vision-software/programmatic-seo";
+import type {SeoLogger} from "programmatic-seo-sdk";
 
 const seoLogger: SeoLogger = {
     debug: (msg, ...args) => frameworkLogger.debug(msg, args),
@@ -275,7 +275,7 @@ Pre-release: the engine is being extracted behavior-identically from
 
 - Normative spec: [#1](https://github.com/Expert-Vision-Software/programmatic-seo/issues/1)
 - First publish: [#9](https://github.com/Expert-Vision-Software/programmatic-seo/issues/9) —
-  npm **`@expert-vision-software/programmatic-seo`** (v0.1.0)
+  npm **`programmatic-seo-sdk`** (v0.1.0)
 
 ## Extraction plan
 

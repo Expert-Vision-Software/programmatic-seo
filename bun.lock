@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "@expert-vision-software/programmatic-seo",
+      "name": "programmatic-seo-sdk",
       "dependencies": {
         "schema-dts": "^2.0.0",
       },

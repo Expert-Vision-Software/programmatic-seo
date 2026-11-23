@@ -1,6 +1,6 @@
 # API reference
 
-Full public surface of `@expert-vision-software/programmatic-seo` (exported from
+Full public surface of `programmatic-seo-sdk` (exported from
 `src/index.ts`).
 
 Adapted from the upstream reference document
