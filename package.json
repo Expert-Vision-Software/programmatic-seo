@@ -1,6 +1,6 @@
 {
   "name": "programmatic-seo-sdk",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Framework-agnostic programmatic SEO engine: declarative page specs, chainable builders, managed JSON-LD @graph, and head rendering.",
   "type": "module",
   "license": "MIT",

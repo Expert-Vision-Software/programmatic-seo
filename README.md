@@ -275,7 +275,7 @@ Pre-release: the engine is being extracted behavior-identically from
 
 - Normative spec: [#1](https://github.com/Expert-Vision-Software/programmatic-seo/issues/1)
 - First publish: [#9](https://github.com/Expert-Vision-Software/programmatic-seo/issues/9) —
-  npm **`programmatic-seo-sdk`** (v0.1.0)
+  npm **`programmatic-seo-sdk`** (v0.2.0)
 
 ## Extraction plan
 
