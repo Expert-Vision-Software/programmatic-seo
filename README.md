@@ -216,7 +216,19 @@ synthesis tests proving the public API reproduces them
   history. Volatile runtime values (dates that default to "now") are normalized to the
   `{{NOW}}` token; every rule is documented in `fixtures/baseline/NORMALIZATION.md`.
 - **Re-capture is manual and deliberate:** a PR titled `baseline: recapture` with a
-  justification in the body. CI never auto-recaptures.
+  justification in the body (production head change, new route, fixture drift). CI never
+  auto-recaptures. The procedure:
+
+  ```sh
+  bun install && bunx playwright install chromium
+  npm run capture-baseline
+  ```
+
+  This rewrites `fixtures/baseline/*.json` for all nine routes from
+  `https://billgrokker.com`. Verify idempotence: run the command a second time and confirm
+  `git status` shows no further diff outside `{{NOW}}` fields (see
+  `fixtures/baseline/NORMALIZATION.md`). Commit the changed fixtures in a single
+  `baseline: recapture` PR describing what changed in production and why.
 - **Interpreting synthesis failures:** a fixture mismatch means either the package output
   drifted from upstream behavior (a regression — fix the implementation) or production
   changed legitimately (a real-world change — re-capture via a reviewed PR). A failure is
