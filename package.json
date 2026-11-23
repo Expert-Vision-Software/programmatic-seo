@@ -1,0 +1,63 @@
+{
+  "name": "@expert-vision-software/programmatic-seo",
+  "version": "0.1.0",
+  "description": "Framework-agnostic programmatic SEO engine: declarative page specs, chainable builders, managed JSON-LD @graph, and head rendering.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Expert Vision Software",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Expert-Vision-Software/programmatic-seo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Expert-Vision-Software/programmatic-seo/issues"
+  },
+  "homepage": "https://github.com/Expert-Vision-Software/programmatic-seo#readme",
+  "keywords": [
+    "seo",
+    "meta-tags",
+    "json-ld",
+    "schema.org",
+    "structured-data",
+    "open-graph",
+    "twitter-card",
+    "typescript",
+    "framework-agnostic"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "vitest run",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "capture-baseline": "bun scripts/capture-baseline.ts"
+  },
+  "dependencies": {
+    "schema-dts": "^2.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.0",
+    "@types/jsdom": "^27.0.0",
+    "@types/node": "^22.0.0",
+    "eslint": "^9.39.0",
+    "eslint-config-prettier": "^10.1.8",
+    "jsdom": "^27.0.0",
+    "playwright": "^1.65.1",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.0",
+    "vitest": "^3.2.4"
+  }
+}
