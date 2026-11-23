@@ -59,6 +59,23 @@ Rendered output is **byte-identical** to the upstream implementation; this is th
 hard constraint inherited from the source project (stable `@id` ordering, key
 insertion order, `@context`/`@graph` shape).
 
+### Re-capturing the baseline
+
+Re-capture is **manual only** and always ships as a reviewed PR titled
+`baseline: recapture` with a justification in the body (production head change,
+new route, fixture drift). CI never re-captures.
+
+```sh
+bun install && bunx playwright install chromium
+npm run capture-baseline
+```
+
+This rewrites `fixtures/baseline/*.json` for all nine routes from
+`https://billgrokker.com`. Then verify idempotence: run the command a second
+time and confirm `git status` shows no further diff outside `{{NOW}}` fields
+(see `fixtures/baseline/NORMALIZATION.md`). Commit the changed fixtures in a
+single `baseline: recapture` PR describing what changed in production and why.
+
 ## Downstream adoption
 
 BillGrokker switches to this package under its own spec:

@@ -1,0 +1,368 @@
+{
+  "route": "/faq",
+  "capturedAt": "2026-11-23",
+  "sourceSha": "3328df5c202c2a97213d025d2b61bbde60f09755",
+  "sitemap": {
+    "lastmod": "2026-08-15",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "httpStatus": 200,
+  "head": {
+    "title": "FAQ | Frequently Asked Questions | FAQ | Frequently Asked Questions | Bill Grokker",
+    "metas": [
+      {
+        "name": null,
+        "property": null,
+        "content": null
+      },
+      {
+        "name": "viewport",
+        "property": null,
+        "content": "width=device-width, initial-scale=1"
+      },
+      {
+        "name": "description",
+        "property": null,
+        "content": "Frequently asked questions about Bill Grokker and how it works."
+      },
+      {
+        "name": "keywords",
+        "property": null,
+        "content": "legislation, bills, congress, bill grokker, frequent questions, common questions, explanation"
+      },
+      {
+        "name": "robots",
+        "property": null,
+        "content": "index, follow"
+      },
+      {
+        "name": null,
+        "property": "og:title",
+        "content": "Frequently Asked Questions"
+      },
+      {
+        "name": null,
+        "property": "og:site_name",
+        "content": "Bill Grokker"
+      },
+      {
+        "name": null,
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "name": null,
+        "property": "og:locale",
+        "content": "en"
+      },
+      {
+        "name": null,
+        "property": "og:description",
+        "content": "Frequently asked questions about Bill Grokker and how it works."
+      },
+      {
+        "name": null,
+        "property": "og:image",
+        "content": "https://billgrokker.com/images/logo-color.png"
+      },
+      {
+        "name": null,
+        "property": "og:logo",
+        "content": "https://billgrokker.com/images/logo-color.png"
+      },
+      {
+        "name": null,
+        "property": "og:image:width",
+        "content": "300"
+      },
+      {
+        "name": null,
+        "property": "og:image:height",
+        "content": "68"
+      },
+      {
+        "name": null,
+        "property": "og:keywords",
+        "content": "legislation, bills, congress, bill grokker, frequent questions, common questions, explanation"
+      },
+      {
+        "name": "twitter:card",
+        "property": null,
+        "content": "summary"
+      },
+      {
+        "name": "twitter:site",
+        "property": null,
+        "content": "@BillGrokker"
+      },
+      {
+        "name": null,
+        "property": "twitter:domain",
+        "content": "billgrokker.com"
+      },
+      {
+        "name": "twitter:title",
+        "property": null,
+        "content": "Frequently Asked Questions"
+      },
+      {
+        "name": "twitter:description",
+        "property": null,
+        "content": "Frequently asked questions about Bill Grokker and how it works."
+      },
+      {
+        "name": "twitter:image",
+        "property": null,
+        "content": "https://billgrokker.com/images/logo-color.png"
+      },
+      {
+        "name": "mobile-web-app-capable",
+        "property": null,
+        "content": "yes"
+      },
+      {
+        "name": "apple-mobile-web-app-title",
+        "property": null,
+        "content": "Bill Grokker"
+      },
+      {
+        "name": null,
+        "property": "og:url",
+        "content": "https://billgrokker.com/faq/index"
+      },
+      {
+        "name": null,
+        "property": "twitter:url",
+        "content": "https://billgrokker.com/faq/index"
+      }
+    ],
+    "canonical": "https://billgrokker.com/faq/index",
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "ImageObject",
+            "@id": "https://billgrokker.com/#logo",
+            "url": "https://billgrokker.com/images/logo-color.png",
+            "width": 300,
+            "height": 68,
+            "caption": "Bill Grokker"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://billgrokker.com/#organization",
+            "name": "Bill Grokker",
+            "url": "https://billgrokker.com",
+            "sameAs": [
+              "https://x.com/billgrokker",
+              "https://www.facebook.com/billgrokker",
+              "https://www.instagram.com/billgrokker",
+              "https://www.linkedin.com/company/billgrokker",
+              "https://github.com/billgrokker"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "customer service",
+              "url": "mailto:support@expertvision.software"
+            }
+          },
+          {
+            "@type": [
+              "WebApplication",
+              "SoftwareApplication"
+            ],
+            "@id": "https://billgrokker.com/#webapplication",
+            "name": "Bill Grokker",
+            "url": "https://billgrokker.com",
+            "operatingSystem": "All",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "description": "Bill Grokker offers AI-powered legislative summaries for bills and executive orders. Understand bills or laws with analysis and bias scoring.",
+            "softwareVersion": "1.0.0",
+            "applicationCategory": "Government"
+          },
+          {
+            "@id": "https://billgrokker.com/faq#webpage",
+            "@type": "WebPage",
+            "url": "https://billgrokker.com/faq/index",
+            "inLanguage": "en-US",
+            "name": "Frequently Asked Questions",
+            "description": "Frequently asked questions about Bill Grokker and how it works.",
+            "isPartOf": {
+              "@id": "https://billgrokker.com/#webapplication"
+            },
+            "image": {
+              "@id": "https://billgrokker.com/#logo"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://billgrokker.com/#logo"
+            },
+            "datePublished": "2025-08-01T00:00:00+00:00",
+            "dateModified": "2025-08-05T00:00:00+00:00",
+            "breadcrumb": {
+              "@id": "https://billgrokker.com/faq#breadcrumb"
+            }
+          },
+          {
+            "@id": "https://billgrokker.com/faq#breadcrumb",
+            "name": "Breadcrumbs",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                  "@id": "https://billgrokker.com/",
+                  "@type": "Thing",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                  "@id": "https://billgrokker.com/faq/",
+                  "@type": "Thing",
+                  "name": "FAQ"
+                }
+              }
+            ]
+          },
+          {
+            "@id": "https://billgrokker.com/faq#faqpage",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is Bill Grokker and how does it help in understanding legislation?",
+                "answerCount": 1,
+                "upvoteCount": 1,
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Bill Grokker is a smart technology platform designed to simplify complex legislative bills and acts. It provides plain-language summaries, AI-driven analysis, and real-time updates to help users easily understand the nuances of US legislation.",
+                  "url": "https://billgrokker.com/faq#what-is-bill-grokker",
+                  "upvoteCount": 1
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What does 'grokking' a bill mean on the Bill Grokker platform?",
+                "answerCount": 1,
+                "upvoteCount": 1,
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "'Grokking' a bill refers to deeply understanding the content and implications of legislative texts through Bill Grokker's tools. The term 'grok' originates from Robert Heinlein's science fiction, meaning to fully comprehend something intuitively and thoroughly.",
+                  "url": "https://billgrokker.com/faq#what-does-grokking-a",
+                  "upvoteCount": 1
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What key features does Bill Grokker offer for exploring bills?",
+                "answerCount": 1,
+                "upvoteCount": 1,
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Bill Grokker offers concise, neutral plain-language summaries, legislative search and navigation by keyword or bill number, current bill status updates, multi-perspective AI analysis, bias scoring, partisan benefit projections, category tagging, a bill chat agent for Q&A, and email alerts for specific bill updates.",
+                  "url": "https://billgrokker.com/faq#what-key-features-does",
+                  "upvoteCount": 1
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How does Bill Grokker use AI to analyze legislation?",
+                "answerCount": 1,
+                "upvoteCount": 1,
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Bill Grokker employs AI to generate diverse viewpoint breakdowns of bills, assess bias based on language and intent, predict which political party benefits from the bill, and provide an unbiased chat agent that explains bill text and answers user questions.",
+                  "url": "https://billgrokker.com/faq#how-does-bill-grokker",
+                  "upvoteCount": 1
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I receive updates about specific bills on Bill Grokker?",
+                "answerCount": 1,
+                "upvoteCount": 1,
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes! Users can subscribe to email alerts for updates on specific bills they are interested in. This ensures you stay informed about any changes or developments related to those legislative acts.",
+                  "url": "https://billgrokker.com/faq#can-i-receive-updates",
+                  "upvoteCount": 1
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How can I search and navigate through bills using Bill Grokker?",
+                "answerCount": 1,
+                "upvoteCount": 1,
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Bill Grokker allows users to search bills by keyword, bill number, or topic. Additionally, bills are tagged with categories for easy browsing by interest area, making it straightforward to find relevant legislation quickly.",
+                  "url": "https://billgrokker.com/faq#how-can-i-search",
+                  "upvoteCount": 1
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Why are legislative bills so long and difficult to read?",
+                "answerCount": 1,
+                "upvoteCount": 1,
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Most federal bills are characterized by an unprecedented volume of complex data, often spanning hundreds or even thousands of pages filled with dense legal jargon. This jargon serves as a primary barrier to civic participation, making it nearly impossible for the average citizen to identify hidden clauses or understand the real-world implications of a proposed law. BillGrokker addresses this by providing plain-language summaries that strip away legal complexities to deliver the \"ground truth\" of the legislation. Our platform acts as a high-intelligence hub, using AI to transform sparse government metadata into a comprehensive domain model that highlights the core objectives and sections of a bill in a way that is approachable for non-experts.",
+                  "url": "https://billgrokker.com/faq#why-are-legislative-bills",
+                  "upvoteCount": 1
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is the chance that a bill I'm tracking will actually become law?",
+                "answerCount": 1,
+                "upvoteCount": 1,
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The velocity of bill introductions often outpaces the public's capacity to follow them, yet statistically, only about 1.7% of bills typically become law. Because the legislative process is so restrictive, it is critical for users to see the \"Bill Status\" (e.g., introduced, passed House, or signed into law) alongside any summary to assess its current relevance. While our ecosystem focuses on the ideological \"why\" and \"who benefits\" through Partisan Benefit Projections, we integrate real-time data from the Congress.gov API to ensure you are viewing the most current status of any active legislation.",
+                  "url": "https://billgrokker.com/faq#what-is-the-chance",
+                  "upvoteCount": 1
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How can I tell if my representative's vote actually aligns with my interests?",
+                "answerCount": 1,
+                "upvoteCount": 1,
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Traditional data sources like Congress.gov provide raw voting records, but they lack a participatory layer for public sentiment. Through our integrated opencongress.us platform, you can record your own \"Yay\" or \"Nay\" opinion on a bill and use a Comparison Dashboard to see a visual alignment between your representative's official actions and the crowdsourced opinions of the public. Our AI further assists this by predicting whether a bill's impact aligns with specific partisan priorities—such as public sector support versus private-sector efficiency—allowing you to hold elected officials accountable based on data-centric sentiment analysis.",
+                  "url": "https://billgrokker.com/faq#how-can-i-tell",
+                  "upvoteCount": 1
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Why are bills duplicated sometimes?",
+                "url": "https://billgrokker.com/faq/companion-bills",
+                "answerCount": 1,
+                "upvoteCount": 1,
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Bills often appear in duplicate because of a deliberate legislative tactic called companion bills—identical or nearly identical legislation introduced simultaneously in both the House and the Senate. This strategy allows both chambers to work on the same policy in parallel, dramatically shortening the time it takes to reach a floor vote. Each chamber has its own procedural rules and committee jurisdictions, so sponsors enlist allies across the aisle to shepherd the bill through both bodies concurrently. When the versions differ after committee markup, a conference committee reconciles them into a single enrolled bill. Read more…",
+                  "url": "https://billgrokker.com/faq#why-are-bills-duplicated",
+                  "upvoteCount": 1
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "bill": null
+}
